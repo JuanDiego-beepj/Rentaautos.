@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Autos - Renta de Autos Express</title>
+<style type="text/css">
+#Fondo {
+	background-color: #707070;
+	position: absolute;
+	visibility: visible;
+	height: 550px;
+	width: 1000px;
+	left: 108px;
+	top: 564px;
+	border: 4px solid #333;
+}
+#Seleccion {
+	margin: auto;
+	height: 120px;
+	width: 940px;
+	border: 3px solid #000000;
+	position: absolute;
+	visibility: visible;
+	left: 138px;
+	top: 595px;
+}
+#Contenedor {
+	background-color: #707070;
+	position: relative;
+	height: 550px;
+	width: 1000px;
+	left: 100px;
+	border: 4px solid #333;
+}
+#Encabezado {
+  background-color: #D7D7D7;
+  height: 197px;
+  width: 938px;
+  left: 30px;
+  top: 20px;
+  position: absolute;
+  border: 2px solid #000;
+  font-size: 80px;
+  font-family: "Times New Roman", Times, serif;
+  color: #9C825A;
+  line-height: 180px;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: normal;
+  text-align: center;
+}
+#Menu {
+	background-color: #D7D7D7;
+	position: absolute;
+	height: 241px;
+	width: 293px;
+	left: 34px;
+	top: 258px;
+	border: 2px solid #000;
+	font-size: 20px;
+	padding: 10px;
+}
+#Menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#Menu ul li {
+	margin-bottom: 10px;
+}
+#Menu ul li a {
+	text-decoration: none;
+	color: #000;
+}
+#submenu {
+	display: none;
+	background-color: #D7D7D7;
+	border: 1px solid #000;
+	padding: 5px;
+	margin-top: 5px;
+	position: absolute;
+}
+#Menu ul li:hover #submenu {
+	display: block;
+}
+#Anuncio {
+	background-color: #D7D7D7;
+	position: absolute;
+	height: 225px;
+	width: 521px;
+	left: 403px;
+	top: 257px;
+	border: 2px solid #000;
+	padding: 20px;
+}
+#palito, #palito2, #palito3, #palito4, #palito5 {
+	background-color: #000;
+	position: absolute;
+	height: 125px;
+	width: 3px;
+	top: 594px;
+}
+#palito { left: 518px; }
+#palito2 { left: 891px; }
+#palito3 { left: 329px; }
+#palito4 { left: 705px; }
+#palito5 { left: 510px; }
+
+#Auto, #Auto2, #Auto3, #Auto4, #Auto5 {
+	height: 339px;
+	width: 940px;
+	border: 2px solid #000;
+	position: absolute;
+	left: 141px;
+	top: 753px;
+	visibility: hidden;
+}
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body>
+<div id="Contenedor">
+  <div id="Encabezado">° Renta de Autos Express °</div>
+
+    <div id="Menu">
+      <h4>🔸 Menú:</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="autos.html">Autos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li id="servicios">
+          <a href="#">Servicios ▼</a>
+          <ul id="submenu">
+            <li><a href="mantenimiento.html">Mantenimiento</a></li>
+            <li><a href="montallantas.html">Montallantas</a></li>
+            <li><a href="alineacion.html">Alineación</a></li>
+            <li><a href="balanceo.html">Balanceo</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+
+  <div id="Anuncio">
+    <p><strong>Galería de Autos Disponibles</strong></p>
+    <p>Aquí te mostramos algunos de los autos que tenemos disponibles para alquiler.<br />
+    Pasa el cursor sobre cada imagen para ver una vista ampliada del vehículo y conocer más detalles sobre su diseño, espacio y estilo.<br />
+    ¡Encuentra el que más se ajuste a tu gusto y necesidad!</p>
+  </div>
+</div>
+
+<div id="Fondo"></div>
+
+<div id="Seleccion"><img src="../../Downloads/carro 11111.jpeg" width="188" height="120" onmouseover="MM_showHideLayers('Auto','','show')" onmouseout="MM_showHideLayers('Auto','','hide')" /><img src="../../Downloads/carro 2.jpeg" width="188" height="120" onmouseover="MM_showHideLayers('Auto2','','show')" onmouseout="MM_showHideLayers('Auto2','','hide')" /><img src="../../Downloads/carro 3.jpeg" width="188" height="120" onmouseover="MM_showHideLayers('Auto3','','show')" onmouseout="MM_showHideLayers('Auto3','','hide')" /><img src="../../Downloads/carro 4.jpeg" width="188" height="120" onmouseover="MM_showHideLayers('Auto4','','show')" onmouseout="MM_showHideLayers('Auto4','','hide')" /><img src="../../Downloads/carro 5.jpeg" width="188" height="120" onmouseover="MM_showHideLayers('Auto5','','show')" onmouseout="MM_showHideLayers('Auto5','','hide')" /></div>
+
+<div id="palito"></div>
+<div id="palito2"></div>
+<div id="palito3"></div>
+<div id="palito4"></div>
+<div id="Auto"><img src="../../Downloads/carro 11111.jpeg" width="941" height="339" /></div>
+<div id="Auto2"><img src="../../Downloads/carro 2.jpeg" width="941" height="339" /></div>
+<div id="Auto3"><img src="../../Downloads/carro 3.jpeg" width="941" height="339" /></div>
+<div id="Auto4"><img src="../../Downloads/carro 4.jpeg" width="941" height="339" /></div>
+<div id="Auto5"><img src="../../Downloads/carro 5.jpeg" width="941" height="339" /></div>
+
+</body>
+</html>

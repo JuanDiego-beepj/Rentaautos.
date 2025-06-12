@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Renta de Autos Express</title>
+  <style type="text/css">
+    #Contenedor {
+      background-color: #707070;
+      position: relative;
+      height: 550px;
+      width: 1000px;
+      left: 100px;
+      border: 4px solid #333;
+    }
+    #Encabezado {
+	background-color: #D7D7D7;
+	height: 197px;
+	width: 938px;
+	left: 30px;
+	top: 20px;
+	position: absolute;
+	border: 2px solid #000;
+	font-size: 80px;
+	font-family: "Times New Roman", Times, serif;
+	color: #9C825A;
+	line-height: 180px;
+	font-style: italic;
+	text-transform: capitalize;
+	font-weight: normal;
+	text-align: center;
+    }
+    #Menu {
+	background-color: #D7D7D7;
+	position: absolute;
+	height: 264px;
+	width: 294px;
+	left: 32px;
+	top: 240px;
+	border: 2px solid #000;
+	font-size: 24px;
+	padding: 10px;
+    }
+    #Menu ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    #Menu ul li {
+      margin-bottom: 10px;
+    }
+    #Menu ul li a {
+      text-decoration: none;
+      color: #000;
+    }
+    #submenu {
+      display: none;
+      background-color: #D7D7D7;
+      border: 1px solid #000;
+      padding: 5px;
+      margin-top: 5px;
+      position: absolute;
+    }
+    #servicios:hover #submenu {
+      display: block;
+    }
+    #Anuncio {
+	background-color: #D7D7D7;
+	position: absolute;
+	height: 247px;
+	width: 533px;
+	left: 394px;
+	top: 241px;
+	border: 2px solid #000;
+	padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="Contenedor">
+    <div id="Encabezado">° Renta de Autos Express °</div>
+
+    <div id="Menu">
+      <h4>🔸 Menú:</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="autos.html">Autos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li id="servicios">
+          <a href="#">Servicios ▼</a>
+          <ul id="submenu">
+            <li><a href="mantenimiento.html">Mantenimiento</a></li>
+            <li><a href="montallantas.html">Montallantas</a></li>
+            <li><a href="alineacion.html">Alineación</a></li>
+            <li><a href="balanceo.html">Balanceo</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+
+    <div id="Anuncio">
+      <h3 data-start="158" data-end="184">mantenimiento</h3>
+      <p data-start="185" data-end="465">Realizamos mantenimiento preventivo y correctivo a todos nuestros vehículos.<br data-start="261" data-end="264" />
+        Revisamos frenos, aceite, luces, batería y más, para garantizar un funcionamiento óptimo y seguro.<br data-start="362" data-end="365" />
+        Nuestros técnicos se encargan de que cada auto esté en perfectas condiciones antes de ser alquilado.</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</body>
+</html>
